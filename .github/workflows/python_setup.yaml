@@ -33,4 +33,4 @@
 
         - name: Test with pytest
           run: |
-            pytest # Run your pytest tests
+            pytest tests/test_mod.py::TestClass::test_method
