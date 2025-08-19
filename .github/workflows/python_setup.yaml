@@ -1,5 +1,5 @@
 name: Setup Python
-  uses: actions/setup-python@v4
+uses: actions/setup-python@v4
   with:
     # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
     python-version: '3.9'
